@@ -1,0 +1,70 @@
+.barra{
+    background: url(../imagenes/background.jpg);
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    
+}
+
+.logo img{
+    width: 90px;
+    height: 90px;
+    
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.secciones ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.secciones li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace;
+    text-shadow: 5px 4px 5px black;
+}
+
+.secciones li  :hover{
+    padding: 0,8px 0,8px;
+    background: #fff;
+    color: #000;
+    border-radius: 15px;
+}
+.barra-busqueda{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.barra-busqueda input{
+    border-radius: 30px;
+    box-shadow: 5px 5px 0px black;
+}
+
+.barra-busqueda button{
+    border-radius: 30px;
+    width: 35px;
+    box-shadow: 5px 5px 0px black;
+}
+
+.decoracion{
+    background: #fafafa10;
+    backdrop-filter: blur(10px);
+    display: flex;
+    gap: 40px;
+    align-items:center ;
+    justify-content: center;
+    width: 1000px;
+    height: 120px;
+    border-radius: 40px;
+}
+
+
+

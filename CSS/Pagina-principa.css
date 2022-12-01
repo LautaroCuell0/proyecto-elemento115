@@ -1,0 +1,290 @@
+
+.titulo-presentacion{
+    color: white;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace;
+    text-shadow: 5px 4px 5px black;
+    margin-bottom: 20px;
+}
+.titulo-presentacion-cover{
+    display: flex;
+    background-color: #3E03B0;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 0px black;
+}
+.titulo-presentacion button {
+    margin-top: 20px;
+    border-radius: 30px;
+    width: 130px;
+    height: 40px;
+    background: rgb(144,116,246);
+background: linear-gradient(86deg, rgba(144,116,246,1) 24%, rgba(98,62,234,1) 48%);
+    color: white;
+    box-shadow: 5px 5px 0px black;
+}
+
+
+.seccion-presentacion{
+    background: url(../imagenes/background.jpg);
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.titulo-presentacion{
+    width: 50%;
+    
+}
+
+.seccion-presentacion img {
+   width: 500px;
+   border-radius: 30px;
+}
+
+/* lo mas relevante de la semana */
+.titulo-relevancia {
+    display: flex;
+    justify-content: center;
+    background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 24%, rgba(160,172,254,1) 48%);
+}
+.titulo-relevancia h1{
+    color: black;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace;
+    text-shadow: 5px 4px 5px black;
+}
+.need-cover{
+    padding: 60px;
+    background-color: white ;
+
+}
+.noticia-need{
+    border-radius: 30px;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    background-color:  #4C2FB9;
+    box-shadow: 7px 8px 0px black;
+}
+.noticia-info-need{
+   color: white;
+   display: flex;
+   flex-direction: column;
+   width: 500px;
+   font-family: 'Bodoni Moda', serif;
+   font-family: 'Press Start 2P', cursive;
+   font-family: 'Space Mono', monospace;
+   text-shadow: 5px 4px 5px black;
+}
+.noticia-info-need button{
+    border-radius: 30px;
+    width: 200px;
+    box-shadow: 5px 5px 0px black;
+}
+
+.img-need img{
+    width: 400px;
+    border-radius: 30px;
+   
+}
+
+/* noticia xbox */
+
+.noticia-xbox{
+    margin-top: 30px;
+    border-radius: 30px;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    background-color:  #4C2FB9;
+    box-shadow: 7px 8px 0px black;
+}
+
+.noticia-info-xbox{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace;
+    text-shadow: 5px 4px 5px black;
+ }
+
+ .noticia-info-xbox button{
+    border-radius: 30px;
+    width: 200px;
+    box-shadow: 5px 5px 0px black;
+}
+
+.img-xbox img{
+    width: 400px;
+    border-radius: 30px;
+   
+}
+
+/* elden ring galardon */
+
+.noticia-elden{
+    margin-top: 30px;
+    border-radius: 30px;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    background-color:  #4C2FB9;
+    box-shadow: 7px 8px 0px black;
+}
+
+.noticia-info-elden{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace;
+    text-shadow: 5px 4px 5px black;
+ }
+
+ .noticia-info-elden button{
+    border-radius: 30px;
+    width: 200px;
+    box-shadow: 5px 5px 0px black;
+}
+
+.img-elden img{
+    width: 400px;
+    border-radius: 30px;
+}  
+
+/* GOTY-2022 */
+.goty{
+    background: url(../imagenes/background.jpg);
+}
+
+.titulo-goty{
+    display: flex;
+    justify-content: center;  
+}
+
+.titulo-goty h1{
+     font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace;
+    text-shadow: 5px 4px 5px black;
+}
+
+.texto-goty{
+    display: flex;
+    justify-content: center;
+}
+.texto-goty p{
+    width: 900px;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace;
+    text-shadow: 5px 4px 5px black;
+}
+.video-fondo video{
+    width: 100%;
+}
+
+.AAA-juegos-cover{
+    display: flex;
+    justify-content: center;
+}
+
+.AAA-juego{
+    border-radius: 30px;
+   display: flex;
+   justify-content: center;
+   background-color: #3E03B0;
+   width: 1000px;
+   gap: 20px;
+   box-shadow: 5px 5px 0px black;
+}
+
+.AAA-juego img {
+    border-radius: 30px;
+}
+
+.goty-text p{
+    color: white;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace;
+    text-shadow: 5px 4px 5px black;
+}
+
+.goty-text h3{
+    color: white;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace;
+    text-shadow: 5px 4px 5px black;
+}
+
+.boton-votar button{
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace;
+    border-radius: 30px;
+    box-shadow: 5px 5px 0px black;
+}
+
+/* ....indie */
+.indie-juegos-cover{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.indie-juego{
+    border-radius: 30px;
+   display: flex;
+   justify-content: center;
+   background-color: #3E03B0;
+   width: 1000px;
+   gap: 20px;
+   box-shadow: 5px 5px 0px black;
+}
+
+.indie-juego img {
+    border-radius: 30px;
+}
+
+.indie-text p{
+    color: white;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace;
+    text-shadow: 5px 4px 5px black;
+}
+
+.indie-text h3{
+    color: white;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace;
+    text-shadow: 5px 4px 5px black;
+}
+
+.boton-votar button{
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace;
+    border-radius: 30px;
+    box-shadow: 5px 5px 0px black;
+}
+
