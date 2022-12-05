@@ -48,8 +48,7 @@ background: linear-gradient(86deg, rgba(144,116,246,1) 24%, rgba(98,62,234,1) 48
 .titulo-relevancia {
     display: flex;
     justify-content: center;
-    background: rgb(255,255,255);
-background: linear-gradient(0deg, rgba(255,255,255,1) 24%, rgba(160,172,254,1) 48%);
+    background: url(../imagenes/background.jpg);
 }
 .titulo-relevancia h1{
     color: black;
@@ -60,31 +59,29 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 24%, rgba(160,172,254,1) 4
 }
 .need-cover{
     padding: 60px;
-    background-color: white ;
+    background: url(../imagenes/background.jpg) ;
 
 }
 .noticia-need{
-    border-radius: 30px;
     padding: 30px;
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
     justify-content: center;
-    background-color:  #4C2FB9;
+    background-color:  white;
     box-shadow: 7px 8px 0px black;
 }
 .noticia-info-need{
-   color: white;
+   color: black;
    display: flex;
    flex-direction: column;
    width: 500px;
    font-family: 'Bodoni Moda', serif;
    font-family: 'Press Start 2P', cursive;
    font-family: 'Space Mono', monospace;
-   text-shadow: 5px 4px 5px black;
+   text-shadow: 5px 4px 5px gray;
 }
 .noticia-info-need button{
-    border-radius: 30px;
     width: 200px;
     box-shadow: 5px 5px 0px black;
 }
@@ -92,6 +89,7 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 24%, rgba(160,172,254,1) 4
 .img-need img{
     width: 400px;
     border-radius: 30px;
+    box-shadow: 5px 5px 0px gray;
    
 }
 
@@ -99,29 +97,27 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 24%, rgba(160,172,254,1) 4
 
 .noticia-xbox{
     margin-top: 30px;
-    border-radius: 30px;
     padding: 30px;
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
     justify-content: center;
-    background-color:  #4C2FB9;
+    background-color:  white;
     box-shadow: 7px 8px 0px black;
 }
 
 .noticia-info-xbox{
-    color: white;
+    color:black;
     display: flex;
     flex-direction: column;
     width: 500px;
     font-family: 'Bodoni Moda', serif;
     font-family: 'Press Start 2P', cursive;
     font-family: 'Space Mono', monospace;
-    text-shadow: 5px 4px 5px black;
+    text-shadow: 5px 4px 5px gray;
  }
 
  .noticia-info-xbox button{
-    border-radius: 30px;
     width: 200px;
     box-shadow: 5px 5px 0px black;
 }
@@ -129,6 +125,7 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 24%, rgba(160,172,254,1) 4
 .img-xbox img{
     width: 400px;
     border-radius: 30px;
+    box-shadow: 5px 5px 0px gray;
    
 }
 
@@ -136,29 +133,27 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 24%, rgba(160,172,254,1) 4
 
 .noticia-elden{
     margin-top: 30px;
-    border-radius: 30px;
     padding: 30px;
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
     justify-content: center;
-    background-color:  #4C2FB9;
+    background-color:  white;
     box-shadow: 7px 8px 0px black;
 }
 
 .noticia-info-elden{
-    color: white;
+    color: black;
     display: flex;
     flex-direction: column;
     width: 500px;
     font-family: 'Bodoni Moda', serif;
     font-family: 'Press Start 2P', cursive;
     font-family: 'Space Mono', monospace;
-    text-shadow: 5px 4px 5px black;
+    text-shadow: 5px 4px 5px gray;
  }
 
  .noticia-info-elden button{
-    border-radius: 30px;
     width: 200px;
     box-shadow: 5px 5px 0px black;
 }
@@ -166,7 +161,213 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 24%, rgba(160,172,254,1) 4
 .img-elden img{
     width: 400px;
     border-radius: 30px;
+    box-shadow: 5px 5px 0px gray;
 }  
+
+
+/* ....... */
+
+/*  otras noticias*/
+
+.otras-noticias{
+    background: url(../imagenes/background.jpg);
+    padding: 30px;
+}
+
+.cover-otras-noticias{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.titulo-otras-noticias {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.titulo-otras-noticias h3{
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace; 
+    text-shadow: 5px 4px 5px black;
+}
+.callisto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 350px;
+    height: 270px;
+    box-shadow: 5px 5px 0px black;
+}
+.callisto img {
+    margin-top: 20px;
+    border-radius: 30px;
+    width: 250px;
+    box-shadow: 5px 5px 0px gray;
+}
+
+.callisto p{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: black;
+    text-shadow: 5px 4px 5px gray;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace;  
+}
+
+/* ...... */
+
+/* tlou-serie */
+
+.serie-tlou{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 350px;
+    height: 270px;
+    box-shadow: 5px 5px 0px black;
+}
+.serie-tlou img {
+    box-shadow: 5px 5px 0px gray;
+    margin-top: 20px;
+    border-radius: 30px;
+    width: 250px;
+}
+
+.serie-tlou p{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: black;
+    text-shadow: 5px 4px 5px gray;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace;  
+}
+
+/* ...... */
+
+/* FORTNITE */
+
+.fortnite{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 350px;
+    height: 270px;
+    box-shadow: 5px 5px 0px black;
+}
+.fortnite img {
+    box-shadow: 5px 5px 0px gray;
+    margin-top: 20px;
+    border-radius: 30px;
+    width: 250px;
+}
+
+.fortnite p{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: black;
+    text-shadow: 5px 4px 5px gray;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace;  
+}
+
+/* ..... */
+
+/* witcher */
+
+.witcher{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 350px;
+    height: 270px;
+    box-shadow: 5px 5px 0px black;
+}
+.witcher img {
+    box-shadow: 5px 5px 0px gray;
+    margin-top: 20px;
+    border-radius: 30px;
+    width: 250px;
+}
+
+.witcher p{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: black;
+    text-shadow: 5px 4px 5px gray;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace;  
+}
+
+/* .... */
+
+/* miles morales */
+.miles-morales{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 350px;
+    height: 270px;
+    box-shadow: 5px 5px 0px black;
+}
+.miles-morales img {
+    box-shadow: 5px 5px 0px gray;
+    margin-top: 20px;
+    border-radius: 30px;
+    width: 250px;
+}
+
+.miles-morales p{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: black;
+    text-shadow: 5px 4px 5px gray;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace;  
+}
+
+/* .... */
+
+/* GAMES AWARD */
+
+.games-award{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 350px;
+    height: 270px;
+    box-shadow: 5px 5px 0px black;
+}
+.games-award img {
+    box-shadow: 5px 5px 0px gray;
+    margin-top: 20px;
+    border-radius: 30px;
+    width: 250px;
+}
+
+.games-award p{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: black;
+    text-shadow: 5px 4px 5px gray;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace;  
+}
+
+
 
 /* GOTY-2022 */
 .goty{
@@ -195,9 +396,7 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 24%, rgba(160,172,254,1) 4
     font-family: 'Press Start 2P', cursive;
     font-family: 'Space Mono', monospace;
     text-shadow: 5px 4px 5px black;
-}
-.video-fondo video{
-    width: 100%;
+    margin-bottom: 80px;
 }
 
 .AAA-juegos-cover{
@@ -243,8 +442,104 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 24%, rgba(160,172,254,1) 4
     box-shadow: 5px 5px 0px black;
 }
 
+/* otros triple A */
+
+.otros-AAA{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.horizon{
+    border-radius: 30px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3E03B0;
+    width: 320px;
+    height: 230px;
+    box-shadow: 5px 5px 0px black;
+}
+.horizon img {
+    margin-top: 20px;
+    border-radius: 30px;
+    width: 250px;
+}
+.horizon button{
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace;
+    border-radius: 30px;
+    box-shadow: 5px 5px 0px black;
+    border-radius: 30px;
+    margin-top: 20px;
+    width: 140px;
+}
+
+/* .... */
+
+.xenoblade-3{
+    border-radius: 30px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3E03B0;
+    width: 320px;
+    height: 230px;
+    box-shadow: 5px 5px 0px black;
+}
+.xenoblade-3 img {
+    margin-top: 32px;
+    border-radius: 30px;
+    width: 250px;
+}
+.xenoblade-3 button{
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace;
+    border-radius: 30px;
+    box-shadow: 5px 5px 0px black;
+    border-radius: 30px;
+    margin-top: 20px;
+    width: 140px;
+}
+
+/* .... */
+
+.gran-turismo{
+    border-radius: 30px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3E03B0;
+    width: 320px;
+    height: 230px;
+    box-shadow: 5px 5px 0px black;
+}
+.gran-turismo img {
+    margin-top: 25px;
+    border-radius: 30px;
+    width: 250px;
+}
+.gran-turismo button{
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace;
+    border-radius: 30px;
+    box-shadow: 5px 5px 0px black;
+    border-radius: 30px;
+    margin-top: 20px;
+    width: 140px;
+}
+
+
 /* ....indie */
-.indie-juegos-cover{
+.indie-cover{
     display: flex;
     justify-content: center;
     margin-top: 30px;
@@ -280,11 +575,178 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 24%, rgba(160,172,254,1) 4
     text-shadow: 5px 4px 5px black;
 }
 
-.boton-votar button{
+.indie-text button{
     font-family: 'Bodoni Moda', serif;
     font-family: 'Press Start 2P', cursive;
     font-family: 'Space Mono', monospace;
     border-radius: 30px;
     box-shadow: 5px 5px 0px black;
 }
+
+/* .... */
+
+/* otros indies */
+
+.otros-indies{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sifu{
+    border-radius: 30px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3E03B0;
+    width: 320px;
+    height: 230px;
+    box-shadow: 5px 5px 0px black;
+}
+.sifu img {
+    margin-top: 20px;
+    border-radius: 30px;
+    width: 250px;
+}
+.sifu button{
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace;
+    border-radius: 30px;
+    box-shadow: 5px 5px 0px black;
+    border-radius: 30px;
+    margin-top: 20px;
+    width: 140px;
+}
+
+/* ..... */
+
+.cult{
+    border-radius: 30px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3E03B0;
+    width: 320px;
+    height: 230px;
+    box-shadow: 5px 5px 0px black;
+}
+.cult img {
+    margin-top: 35px;
+    border-radius: 30px;
+    width: 250px;
+}
+.cult button{
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace;
+    border-radius: 30px;
+    box-shadow: 5px 5px 0px black;
+    border-radius: 30px;
+    margin-top: 20px;
+    width: 140px;
+}
+
+/* ..... */
+
+.have{
+    border-radius: 30px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3E03B0;
+    width: 320px;
+    height: 230px;
+    box-shadow: 5px 5px 0px black;
+}
+.have img {
+    margin-top: 20px;
+    border-radius: 30px;
+    width: 250px;
+}
+.have button{
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace;
+    border-radius: 30px;
+    box-shadow: 5px 5px 0px black;
+    border-radius: 30px;
+    margin-top: 20px;
+    width: 140px;
+}
+
+/* .... */
+
+/* FOOTER */
+.footer{
+    background-color: #3E03B0;
+    height:300px;
+    display: flex;
+    justify-content: center;
+}
+.cover-footer{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    gap: 30px;
+    justify-content: center;
+}
+.moneda img{
+    width: 100px;
+    height: 120px;
+}
+.moneda {
+    display: flex;
+    justify-content: center;
+}
+
+.info-footer p{
+    color: white;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace;
+}
+
+.info-footer{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.info-footer h4{
+    color: white;
+    text-shadow: 5px 4px 5px black;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace; 
+}
+
+.redes-footer p{
+    color: white;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace;
+}
+
+.redes-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.redes-footer h4{
+    color: white;
+    text-shadow: 5px 4px 5px black;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace;
+}
+
+
+
 
