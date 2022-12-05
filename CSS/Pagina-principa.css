@@ -44,6 +44,11 @@ background: linear-gradient(86deg, rgba(144,116,246,1) 24%, rgba(98,62,234,1) 48
    border-radius: 30px;
 }
 
+
+.AAA-juegos-cover{
+    display: flex;
+    justify-content: center;
+}
 /* lo mas relevante de la semana */
 .titulo-relevancia {
     display: flex;
@@ -445,6 +450,7 @@ background: linear-gradient(86deg, rgba(144,116,246,1) 24%, rgba(98,62,234,1) 48
 /* otros triple A */
 
 .otros-AAA{
+    flex-wrap: wrap;
     padding: 30px;
     display: flex;
     flex-direction: row;
@@ -588,6 +594,7 @@ background: linear-gradient(86deg, rgba(144,116,246,1) 24%, rgba(98,62,234,1) 48
 /* otros indies */
 
 .otros-indies{
+    flex-wrap: wrap;
     padding: 30px;
     display: flex;
     flex-direction: row;
@@ -684,8 +691,9 @@ background: linear-gradient(86deg, rgba(144,116,246,1) 24%, rgba(98,62,234,1) 48
 
 /* FOOTER */
 .footer{
+    
     background-color: #3E03B0;
-    height:300px;
+    height:280px;
     display: flex;
     justify-content: center;
 }
@@ -748,5 +756,15 @@ background: linear-gradient(86deg, rgba(144,116,246,1) 24%, rgba(98,62,234,1) 48
 }
 
 
+
+/* responsive*/
+
+@media screen and (max-width: 1020px) {
+    .img-presentacion img{
+        width: 300px;
+
+    }
+
+}
 
 
