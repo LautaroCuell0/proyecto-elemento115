@@ -1,0 +1,73 @@
+body{
+    background: url(../imagenes/background.jpg);
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.titulo-login{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.titulo-login h1{
+    color: white;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace;
+    text-shadow: 5px 4px 9px black;
+}
+.label-login{
+    color: white;
+    margin-top: 20px;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace;
+}
+.inputs-login input{
+    width: 300px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    box-shadow: 7px 8px 0px black;
+}
+
+.inputs-login :placeholder-shown{
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace;
+}
+
+
+.button-login button{
+    border-radius: 20px;
+    box-shadow: 7px 7px 0px black;
+    margin-top: 20px;
+    width: 200px;
+}
+
+.img-login img{
+    display: flex;
+    width: 400px;
+    border-radius: 30px;
+    align-items: center;
+}
+
+.cover-login{
+    gap: 10px;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 7px 8px 0px black;
+    justify-content: center;
+    padding: 30px;
+    height: 450px;
+    width: 850px;
+    display: flex;
+    flex-direction: row;
+    background-color: #ee8fa6;
+}

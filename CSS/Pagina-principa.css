@@ -4,7 +4,6 @@
     font-family: 'Bodoni Moda', serif;
     font-family: 'Press Start 2P', cursive;
     font-family: 'Space Mono', monospace;
-    text-shadow: 5px 4px 5px black;
     margin-bottom: 20px;
 }
 .titulo-presentacion-cover{
@@ -13,7 +12,9 @@
     border-radius: 30px;
     align-items: center;
     justify-content: center;
-    box-shadow: 5px 5px 0px black;
+      font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace;
 }
 .titulo-presentacion button {
     margin-top: 20px;
@@ -60,7 +61,6 @@ background: linear-gradient(86deg, rgba(144,116,246,1) 24%, rgba(98,62,234,1) 48
     font-family: 'Bodoni Moda', serif;
     font-family: 'Press Start 2P', cursive;
     font-family: 'Space Mono', monospace;
-    text-shadow: 5px 4px 5px black;
 }
 .need-cover{
     padding: 60px;
@@ -195,7 +195,7 @@ background: linear-gradient(86deg, rgba(144,116,246,1) 24%, rgba(98,62,234,1) 48
     font-family: 'Bodoni Moda', serif;
     font-family: 'Press Start 2P', cursive;
     font-family: 'Space Mono', monospace; 
-    text-shadow: 5px 4px 5px black;
+    
 }
 .callisto{
     display: flex;
@@ -388,7 +388,6 @@ background: linear-gradient(86deg, rgba(144,116,246,1) 24%, rgba(98,62,234,1) 48
      font-family: 'Bodoni Moda', serif;
     font-family: 'Press Start 2P', cursive;
     font-family: 'Space Mono', monospace;
-    text-shadow: 5px 4px 5px black;
 }
 
 .texto-goty{
@@ -400,7 +399,6 @@ background: linear-gradient(86deg, rgba(144,116,246,1) 24%, rgba(98,62,234,1) 48
     font-family: 'Bodoni Moda', serif;
     font-family: 'Press Start 2P', cursive;
     font-family: 'Space Mono', monospace;
-    text-shadow: 5px 4px 5px black;
     margin-bottom: 80px;
 }
 
@@ -691,48 +689,34 @@ background: linear-gradient(86deg, rgba(144,116,246,1) 24%, rgba(98,62,234,1) 48
 
 /* FOOTER */
 .footer{
-    
     background-color: #3E03B0;
-    height:280px;
-    display: flex;
-    justify-content: center;
-}
-.cover-footer{
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    width: 400px;
-    gap: 30px;
-    justify-content: center;
-}
-.moneda img{
-    width: 100px;
-    height: 120px;
-}
-.moneda {
-    display: flex;
-    justify-content: center;
+    height: 200px;
 }
 
-.info-footer p{
+.footer h3{
     color: white;
     font-family: 'Bodoni Moda', serif;
     font-family: 'Press Start 2P', cursive;
     font-family: 'Space Mono', monospace;
 }
 
-.info-footer{
-    
+.cover-footer{
     display: flex;
-    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 
-.info-footer h4{
+.logo-footer img{
+    width: 100px;
+}
+
+.info-footer p {
     color: white;
-    text-shadow: 5px 4px 5px black;
     font-family: 'Bodoni Moda', serif;
     font-family: 'Press Start 2P', cursive;
-    font-family: 'Space Mono', monospace; 
+    font-family: 'Space Mono', monospace;
 }
 
 .redes-footer p{
@@ -741,22 +725,6 @@ background: linear-gradient(86deg, rgba(144,116,246,1) 24%, rgba(98,62,234,1) 48
     font-family: 'Press Start 2P', cursive;
     font-family: 'Space Mono', monospace;
 }
-
-.redes-footer {
-    display: flex;
-    flex-direction: column;
-}
-
-.redes-footer h4{
-    color: white;
-    text-shadow: 5px 4px 5px black;
-    font-family: 'Bodoni Moda', serif;
-    font-family: 'Press Start 2P', cursive;
-    font-family: 'Space Mono', monospace;
-}
-
-
-
 /* responsive*/
 
 @media screen and (max-width: 1020px) {
