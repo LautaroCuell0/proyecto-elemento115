@@ -1,0 +1,211 @@
+
+.cover{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover-noticias{
+    display: flex;
+    flex-direction: column;
+}
+
+/* .... */
+/* star-wars */
+
+.uno{
+    margin-top: 30px;
+    background-color: white;
+    width: 600px;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace;
+    box-shadow: 7px 8px 0px black;
+    padding: 25px;
+}
+
+.img-p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.img-p img {
+    box-shadow: 7px 8px 0px black;
+}
+
+.uno img {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+}
+
+
+
+/* ..... */
+/*  */
+.dos{
+    background-color: white;
+    width: 350px;
+    height: 750px;
+     font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace;  
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 7px 8px 0px black;
+}
+
+.dos img {
+    margin-top: 30px;
+    width: 300px;
+    box-shadow: 7px 8px 0px black;
+}
+
+/* ........... */
+/* guias y tutoriales */
+.guias{
+    padding: 30px;
+}
+.titulo-guias{
+    display: flex;
+    justify-content: center;
+}
+.titulo-guias h1{
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace; 
+}
+
+.tutoriales-guias{
+    display: flex;
+    flex-direction: column;
+}
+
+.guias-cover{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+}
+/* ....... */
+/* recomendaciones */
+
+.recomendaciones{
+    width: 400px;
+    height: 700px;
+    background-color: #3E03B0;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    box-shadow: 7px 8px 0px black;
+    align-items: center;
+}
+
+.recomendaciones h3{
+    margin-top: 20px;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace;
+    color: white;
+}
+
+.recomendaciones img {
+    margin-top: 30px;
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 7px 8px 0px black;
+}
+
+
+
+/* ...... */
+.elden-guia{
+    border-radius: 30px;
+    padding: 30px;
+    width: 800px;
+    background-color: #3E03B0;
+    box-shadow: 7px 8px 0px black;
+}
+.elden-guia h3{
+    color: white;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace; 
+}
+
+.elden-guia img {
+    box-shadow: 7px 8px 0px black;
+    width: 300px;
+}
+
+.p-img{
+    color: white;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.elden-guia iframe{
+    box-shadow: 7px 8px 0px black;
+    border-radius: 30px;
+}
+
+.guia-button button{
+    width: 150px;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace; 
+    box-shadow: 7px 8px 0px black;
+
+}
+
+/* ............ */
+
+.gow-guia{
+    margin-top: 20px;
+    border-radius: 30px;
+    padding: 30px;
+    width: 800px;
+    background-color: #3E03B0;
+    box-shadow: 7px 8px 0px black;
+}
+.gow-guia h3{
+    color: white;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace; 
+}
+
+
+.p-img{
+    color: white;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.gow-guia iframe{
+    border-radius: 30px;
+    box-shadow: 7px 8px 0px black;
+}
+
+.guia-button button{
+    width: 150px;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace; 
+    box-shadow: 7px 8px 0px black;
+
+}
+
+
