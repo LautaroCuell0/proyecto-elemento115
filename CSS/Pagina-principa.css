@@ -62,113 +62,142 @@ background: linear-gradient(86deg, rgba(144,116,246,1) 24%, rgba(98,62,234,1) 48
     font-family: 'Press Start 2P', cursive;
     font-family: 'Space Mono', monospace;
 }
-.need-cover{
-    padding: 60px;
-    background: url(../imagenes/background.jpg) ;
 
+.mas-relevancia{
+    background: url(../imagenes/background.jpg);
 }
+
+/* ......... */
+.need-cover{
+    display: flex;
+    justify-content: center;
+}
+
 .noticia-need{
     padding: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 50px;
-    justify-content: center;
     background-color:  white;
     box-shadow: 7px 8px 0px black;
-}
-.noticia-info-need{
-   color: black;
-   display: flex;
-   flex-direction: column;
-   width: 500px;
-   font-family: 'Bodoni Moda', serif;
-   font-family: 'Press Start 2P', cursive;
-   font-family: 'Space Mono', monospace;
-   text-shadow: 5px 4px 5px gray;
-}
-.noticia-info-need button{
-    width: 200px;
-    box-shadow: 5px 5px 0px black;
+    width: 900px;
 }
 
-.img-need img{
-    width: 400px;
-    border-radius: 30px;
-    box-shadow: 5px 5px 0px gray;
-   
+.p-img-need{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
+.p-img-need p{
+    width: 400px;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace;
+    text-shadow: 5px 4px 5px gray;
+}
+.p-img-need img {
+    width: 350px;
+    box-shadow: 7px 8px 0px black;
+}
+
+.button-need{
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace;
+    width: 300px;
+}
+
+.button-need button{
+    box-shadow: 7px 8px 0px black;
+}
+
+
+
 
 /* noticia xbox */
 
-.noticia-xbox{
+.xbox-cover{
     margin-top: 30px;
-    padding: 30px;
     display: flex;
-    flex-wrap: wrap;
-    gap: 50px;
     justify-content: center;
-    background-color:  white;
-    box-shadow: 7px 8px 0px black;
 }
 
-.noticia-info-xbox{
-    color:black;
+.noticia-xbox{
+    padding: 30px;
+    background-color:  white;
+    box-shadow: 7px 8px 0px black;
+    width: 900px;
+}
+
+.p-img-xbox{
     display: flex;
-    flex-direction: column;
-    width: 500px;
+    flex-direction: row;
+    gap: 20px;
+}
+.p-img-xbox p{
+    width: 400px;
     font-family: 'Bodoni Moda', serif;
     font-family: 'Press Start 2P', cursive;
     font-family: 'Space Mono', monospace;
     text-shadow: 5px 4px 5px gray;
- }
-
- .noticia-info-xbox button{
-    width: 200px;
-    box-shadow: 5px 5px 0px black;
+}
+.p-img-xbox img {
+    width: 350px;
+    box-shadow: 7px 8px 0px black;
 }
 
-.img-xbox img{
-    width: 400px;
-    border-radius: 30px;
-    box-shadow: 5px 5px 0px gray;
-   
+.button-xbox{
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace;
+    width: 300px;
 }
+
+.button-xbox button{
+    box-shadow: 7px 8px 0px black;
+}
+
 
 /* elden ring galardon */
 
-.noticia-elden{
+.cover-elden{
     margin-top: 30px;
-    padding: 30px;
     display: flex;
-    flex-wrap: wrap;
-    gap: 50px;
     justify-content: center;
-    background-color:  white;
-    box-shadow: 7px 8px 0px black;
 }
 
-.noticia-info-elden{
-    color: black;
+.noticia-elden{
+    padding: 30px;
+    background-color:  white;
+    box-shadow: 7px 8px 0px black;
+    width: 900px;
+}
+
+.p-img-elden{
     display: flex;
-    flex-direction: column;
-    width: 500px;
+    flex-direction: row;
+    gap: 20px;
+}
+.p-img-elden p{
+    width: 400px;
     font-family: 'Bodoni Moda', serif;
     font-family: 'Press Start 2P', cursive;
     font-family: 'Space Mono', monospace;
     text-shadow: 5px 4px 5px gray;
- }
-
- .noticia-info-elden button{
-    width: 200px;
-    box-shadow: 5px 5px 0px black;
+}
+.p-img-elden img {
+    width: 350px;
+    height: 200px;
+    box-shadow: 7px 8px 0px black;
 }
 
-.img-elden img{
-    width: 400px;
-    border-radius: 30px;
-    box-shadow: 5px 5px 0px gray;
-}  
+.button-elden{
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace;
+    width: 300px;
+}
 
+.button-elden button{
+    box-shadow: 7px 8px 0px black;
+}
 
 /* ....... */
 
@@ -208,12 +237,14 @@ background: linear-gradient(86deg, rgba(144,116,246,1) 24%, rgba(98,62,234,1) 48
 }
 .callisto img {
     margin-top: 20px;
-    border-radius: 30px;
     width: 250px;
-    box-shadow: 5px 5px 0px gray;
+    box-shadow: 5px 5px 0px black;
 }
-
+.callisto a {
+    text-decoration: none;
+}
 .callisto p{
+    
     margin-top: 20px;
     margin-left: 20px;
     color: black;
@@ -237,10 +268,13 @@ background: linear-gradient(86deg, rgba(144,116,246,1) 24%, rgba(98,62,234,1) 48
     box-shadow: 5px 5px 0px black;
 }
 .serie-tlou img {
-    box-shadow: 5px 5px 0px gray;
+    box-shadow: 5px 5px 0px black;
     margin-top: 20px;
-    border-radius: 30px;
     width: 250px;
+}
+
+.serie-tlou a {
+    text-decoration: none;
 }
 
 .serie-tlou p{
@@ -267,10 +301,13 @@ background: linear-gradient(86deg, rgba(144,116,246,1) 24%, rgba(98,62,234,1) 48
     box-shadow: 5px 5px 0px black;
 }
 .fortnite img {
-    box-shadow: 5px 5px 0px gray;
+    box-shadow: 5px 5px 0px black;
     margin-top: 20px;
-    border-radius: 30px;
     width: 250px;
+}
+
+.fortnite a {
+    text-decoration: none;
 }
 
 .fortnite p{
@@ -297,10 +334,13 @@ background: linear-gradient(86deg, rgba(144,116,246,1) 24%, rgba(98,62,234,1) 48
     box-shadow: 5px 5px 0px black;
 }
 .witcher img {
-    box-shadow: 5px 5px 0px gray;
+    box-shadow: 5px 5px 0px black;
     margin-top: 20px;
-    border-radius: 30px;
     width: 250px;
+}
+
+.witcher a{
+    text-decoration: none;
 }
 
 .witcher p{
@@ -326,10 +366,13 @@ background: linear-gradient(86deg, rgba(144,116,246,1) 24%, rgba(98,62,234,1) 48
     box-shadow: 5px 5px 0px black;
 }
 .miles-morales img {
-    box-shadow: 5px 5px 0px gray;
+    box-shadow: 5px 5px 0px black;
     margin-top: 20px;
-    border-radius: 30px;
     width: 250px;
+}
+
+.miles-morales a {
+    text-decoration: none;
 }
 
 .miles-morales p{
@@ -356,10 +399,13 @@ background: linear-gradient(86deg, rgba(144,116,246,1) 24%, rgba(98,62,234,1) 48
     box-shadow: 5px 5px 0px black;
 }
 .games-award img {
-    box-shadow: 5px 5px 0px gray;
+    box-shadow: 5px 5px 0px black;
     margin-top: 20px;
-    border-radius: 30px;
     width: 250px;
+}
+
+.games-award a {
+    text-decoration:none ;
 }
 
 .games-award p{

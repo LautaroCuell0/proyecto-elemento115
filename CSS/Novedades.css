@@ -90,6 +90,8 @@
     flex-direction: row;
     gap: 30px;
     align-items: center;
+    justify-content: center;
+    padding: 30px;
 }
 /* ....... */
 /* recomendaciones */
@@ -126,7 +128,7 @@
 .elden-guia{
     border-radius: 30px;
     padding: 30px;
-    width: 800px;
+    width: 650px;
     background-color: #3E03B0;
     box-shadow: 7px 8px 0px black;
 }
@@ -172,7 +174,7 @@
     margin-top: 20px;
     border-radius: 30px;
     padding: 30px;
-    width: 800px;
+    width: 650px;
     background-color: #3E03B0;
     box-shadow: 7px 8px 0px black;
 }
@@ -208,4 +210,176 @@
 
 }
 
+/* ........ */
+
+/* Ofertas */
+
+.titulo-ofertas {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-ofertas h1{
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Space Mono', monospace; 
+}
+
+.cover-AAA{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.AAA-ofertas{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.assasins-img{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: #3E03B0;
+    width: 1000px;
+    height: 260px;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    border-radius: 30px;
+    box-shadow: 7px 8px 0px black;
+}
+
+.assasins-img iframe {
+    border-radius: 30px;
+    
+}
+
+.assasins-img img{
+    border-radius: 30px;
+    width: 300px;
+    height: 150px;
+    box-shadow: 7px 8px 0px black;
+}
+
+/* ..... */
+/* gow */
+
+.gow-img{
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: #3E03B0;
+    width: 1000px;
+    height: 260px;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    border-radius: 30px;
+    box-shadow: 7px 8px 0px black;
+}
+
+.gow-img iframe {
+    border-radius: 30px;
+    
+}
+
+.gow-img img{
+    border-radius: 30px;
+    width: 300px;
+    height: 150px;
+    box-shadow: 7px 8px 0px black;
+}
+
+/* ........ */
+/* portal 2 */
+
+.portal-img{
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: #3E03B0;
+    width: 1000px;
+    height: 260px;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    border-radius: 30px;
+    box-shadow: 7px 8px 0px black;
+}
+
+.portal-img iframe {
+    border-radius: 30px;
+    
+}
+
+.portal-img img{
+    border-radius: 30px;
+    width: 300px;
+    height: 150px;
+    box-shadow: 7px 8px 0px black;
+}
+
+/* ....... */
+/* spiderman */
+
+.spiderman-img{
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: #3E03B0;
+    width: 1000px;
+    height: 260px;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    border-radius: 30px;
+    box-shadow: 7px 8px 0px black;
+}
+
+.spiderman-img iframe {
+    border-radius: 30px;
+    
+}
+
+.spiderman-img img{
+    border-radius: 30px;
+    width: 300px;
+    height: 150px;
+    box-shadow: 7px 8px 0px black;
+}
+
+/* ....... */
+/* cod */
+
+.cod-img{
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: #3E03B0;
+    width: 1000px;
+    height: 260px;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    border-radius: 30px;
+    box-shadow: 7px 8px 0px black;
+}
+
+.cod-img iframe {
+    border-radius: 30px;
+    
+}
+
+.cod-img img{
+    border-radius: 30px;
+    width: 300px;
+    height: 150px;
+    box-shadow: 7px 8px 0px black;
+}
 

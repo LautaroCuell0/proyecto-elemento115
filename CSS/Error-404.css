@@ -1,0 +1,12 @@
+.error-404{
+    background-color: black;
+}
+
+.img-error{
+    display: flex;
+    justify-content: center;
+}
+
+.img-error img{
+ width: 1200px;
+}
